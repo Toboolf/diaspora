@@ -1,18 +1,21 @@
-# Code Retreat - Agosto 2022
+# Diaspora
 
-Dadas dos personas A y B en una red social, determinar:
+**TODO: Add description**
 
-- Los seguidores que tienen en común.
-- De aquellos seguidores que tienen en común, determinar la relación entre ellos, es decir, si se siguen.
-- Crear un grafo con la relación de estos usuarios.
-- Optimizar el grafo: crear grupos por tecnología que ocupan las personas.
+## Installation
 
-## Elementos sugeridos
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `diaspora` to your list of dependencies in `mix.exs`:
 
-- Hacer pruebas
-- Hacerlo lo más simple posible
-- Usar una API Rest como la que provee Github o Instagram
-- Hacerlo lo más simple posible
-- Guardar los usuarios en base de datos si la API tiene límite de uso
-- Hacerlo lo más simple posible
-- Versionar cada paso que se dé
+```elixir
+def deps do
+  [
+    {:diaspora, "~> 0.1.0"}
+  ]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at <https://hexdocs.pm/diaspora>.
+
