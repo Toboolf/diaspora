@@ -5,7 +5,7 @@ defmodule GitHub.Api do
 
   plug(Tesla.Middleware.Headers, [
     {"User-Agent", "https://api.github.com/meta"},
-    {"Authorization", "token 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"}
+    {"Authorization", "token "}
   ])
 
   plug(Tesla.Middleware.JSON)
